@@ -5,7 +5,6 @@ def check_if_user_gave_input
 end
 
 def create_url(query)
-  puts query
   "https://www.google.com/search?q=#{query.to_s}"
 end
 
